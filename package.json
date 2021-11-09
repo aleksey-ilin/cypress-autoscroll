@@ -1,0 +1,26 @@
+{
+  "name": "cypress-autoscroll",
+  "version": "0.0.1",
+  "description": "",
+  "source": "src/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "parcel --port 8080",
+    "test": "start-server-and-test start http://localhost:8080 \"cypress open\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alfalab/core-components": "^21.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
+    "cypress": "^8.7.0",
+    "parcel": "^2.0.1",
+    "start-server-and-test": "^1.14.0"
+  }
+}
